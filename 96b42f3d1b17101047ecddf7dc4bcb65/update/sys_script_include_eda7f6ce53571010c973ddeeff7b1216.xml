@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_fxi_demoproj_5.test_script</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>test_script</name>
+        <script><![CDATA[var test_script = Class.create();
+test_script.prototype = {
+    initialize: function() {
+    },
+
+    type: 'test_script'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-18 15:04:01</sys_created_on>
+        <sys_id>eda7f6ce53571010c973ddeeff7b1216</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test_script</sys_name>
+        <sys_package display_value="demoproj_5" source="x_fxi_demoproj_5">96b42f3d1b17101047ecddf7dc4bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoproj_5">96b42f3d1b17101047ecddf7dc4bcb65</sys_scope>
+        <sys_update_name>sys_script_include_eda7f6ce53571010c973ddeeff7b1216</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-18 15:04:01</sys_updated_on>
+    </sys_script_include>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="demoproj_5">96b42f3d1b17101047ecddf7dc4bcb65</claim_owner_scope>
+        <claim_timestamp>174a1be982e0000001</claim_timestamp>
+        <metadata_update_name>sys_script_include_eda7f6ce53571010c973ddeeff7b1216</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>demoproj_5</previous_claim_name>
+        <previous_claim_scope>96b42f3d1b17101047ecddf7dc4bcb65</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-18 15:04:16</sys_created_on>
+        <sys_id>cbb73ace53571010c973ddeeff7b123a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-18 15:04:16</sys_updated_on>
+    </sys_claim>
+</record_update>
